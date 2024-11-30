@@ -4,14 +4,14 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
-1. [Installasi OPEN SSH SERVER](#1.-[Installasi-OPEN-SSH-SERVER](https://github.com/HilmiZaidanRafi/Os-Server-Final-Project-23.83.0971/edit/main/README.md#1installasi-open-ssh-server))
+1. [Installasi OPEN SSH SERVER](#1.-Installasi-OPEN-SSH-SERVER)
 2. [Installasi MY-SQL SERVER](#2.-Installasi-MY-SQL-SERVER)
 3. [Installasi APACHE2](#3.-Installasi-APACHE2)
 4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
 5. [Installasi SAMBA](#5.-Installasi-SAMBA)
 
 ## 1.Installasi OPEN SSH SERVER
-
+### #1.1 Instalasi
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
@@ -39,7 +39,7 @@ ip add
 ```
 sudo systemctl status ssh
 ```
-
+### 1.2 Configurasi
 **Langkah 6: Konfigurasi SHH SERVER**
 ```
 Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
@@ -50,6 +50,7 @@ setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ![7](https://github.com/user-attachments/assets/483c98b2-4a57-4aee-91bd-d04f646325b0)
 
 ## 2.Installasi MY-SQL SERVER
+### #1.1 Instalasi
  **Langkah 1:Install mysql server dengan perintah**
 ```
 sudo apt install mysql-server -y
@@ -80,7 +81,7 @@ phpinfo ();
 ?>
 ```
 
-
+### 1.2 Configurasi
 **Langkah 5:CEK KONFIGURASI**
 - Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
 - cth :192.168.1.3/info.php
@@ -88,6 +89,7 @@ phpinfo ();
 ![18](https://github.com/user-attachments/assets/c7119923-5f59-4e86-bb2a-3f155b4154c8)
 
 ## 3.Installasi APACHE2
+### #1.1 Instalasi
 **Langkah 1:Perbarui daftar paket dengan perintah**
 ```
 sudo apt update
@@ -107,11 +109,13 @@ sudo systemctl start apache2
 ```
  ip add
 ```
+### 1.2 Configurasi
 **Langkah 5:Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
 - contoh ip saya:192.168.1.3
   ![23](https://github.com/user-attachments/assets/a90e2a6c-dd81-4b99-a381-a4eb3c1e3f4b)
 
 ## 4.Installasi DATABASE SERVER
+### #1.1 Instalasi
 **Langkah 1:Installasi paket mariadb**
 ```
 sudo apt-get update
@@ -138,12 +142,14 @@ sudo apt-get install phpmyadmin
 ```
 sudo systemctl restart apache2
 ```
+### 1.2 Configurasi
 **Langkah 5:CEK KONFIGURASI**
 Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 ![31](https://github.com/user-attachments/assets/ada112e1-0200-4e5f-b030-0bc5d9e868d1)
 ![32](https://github.com/user-attachments/assets/932ebaa4-3402-4087-aebd-7b81b16857a9)
 
 ## 5.Installasi SAMBA
+### #1.1 Instalasi
 **Langkah 1:Memperbarui daftar paket dengan perintah**
 
 ```
@@ -180,6 +186,7 @@ sudo nano /etc/samba/smb.conf
 ```
  sudo systemctl status smbd
 ```
+### 1.2 Configurasi
 **Langkah 8:Buka file eksplorer pada windows,dan pilih bagian “This PC” kemudian ketikkan pada taskbar atas ip add ubuntu server (192.168.1.3) lalu masukkan username dan passwd yang sudah di buat tadi**
 ![42](https://github.com/user-attachments/assets/9b71d66b-6533-4b0f-86f0-dbbeeaa1df00)
 ![43](https://github.com/user-attachments/assets/219a9a55-760a-4ab2-bcfa-5f66ee2d82bb)
