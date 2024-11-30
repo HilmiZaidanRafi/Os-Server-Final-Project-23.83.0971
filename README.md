@@ -4,7 +4,7 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
-1. [Instalasi SSH](#1-instalasi-ssh-server)
+1. [Instalasi OPEN SSH SERVER](#1-instalasi-open-ssh-server)
 2. [Installasi MY-SQL SERVER](#2-Installasi-MY-SQL-SERVER)
 3. [Installasi APACHE2](#3-Installasi-APACHE2)
 4. [Installasi DATABASE SERVER](#4-Installasi-DATABASE-SERVER)
